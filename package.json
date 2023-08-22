@@ -19,5 +19,9 @@
       "sans": "Robot",
       "mono": "Fira Code"
     }
+  },
+  "engines": {
+    "node": "18",
+    "pnpm": "8"
   }
 }
