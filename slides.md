@@ -13,37 +13,11 @@ fonts:
   mono: "Fira Code"
 ---
 
-<Title>大胆で危うい技術。<br>地球を人為的に冷やす<br>「太陽放射改変」って何だ</Title>
+<Page1 />
 
 ---
 
-## 引用元
-
-<div>
-  GREEN IMPACT 〜地球を救う、ヤバいビジネス〜
-<br>
-NewsPicks地球支局 × Chronicle
-</div>
-
-## ゲスト
-
-東京大学未来ビジョン研究センター杉山昌広准教授
-
-<!--
-Here is another comment.
--->
-
----
-
-## layout: default
-
-# Table of contents
-
-```
-<Toc minDepth="1" maxDepth="5"></Toc>
-```
-
-<Toc></Toc>
+<Page2 />
 
 ---
 

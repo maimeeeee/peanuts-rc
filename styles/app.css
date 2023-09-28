@@ -1,0 +1,5 @@
+:root {
+  --text-high: rgba(26, 21, 35, 1);
+  --text-low: rgba(111, 110, 119, 1);
+  --text-link: var(--cyan-9);
+}

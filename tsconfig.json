@@ -1,0 +1,12 @@
+{
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "~/components/*": ["./components/*"],
+      "~/style/*": ["./style/*"]
+    }
+  },
+
+}
