@@ -1,20 +1,23 @@
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue'
+import MuiImg from '../assets/img/mui.jpg'
+import styles from '../styles/page.module.css'
 
 const Page2 = defineComponent({
   setup() {
     return () => (
       <div>
-        <h2>引用元</h2>
+        <h2 class={styles.underline}>はじめに</h2>
         <p>
-          GREEN IMPACT 〜地球を救う、ヤバいビジネス〜
-          <br />
-          NewsPicks地球支局 × Chronicle
+          <h2>なぜ作ることになったのか</h2>
+          <p>
+            Reactはライブラリが豊富にあるが、
+            <br /> Svelte は Svelte Material UIなどあるものの使いにくい
+          </p>
+          <img src={MuiImg} style={'width: 240px'} />
         </p>
-        <h2>ゲスト</h2>
-        <p>東京大学未来ビジョン研究センター杉山昌広准教授</p>
       </div>
-    );
+    )
   },
-});
+})
 
-export default Page2;
+export default Page2

@@ -1,3 +1,21 @@
 .caption-link {
   color: var(--text-link);
 }
+
+.underline {
+  border-bottom: 1px solid #7ed0fd;
+}
+
+.arrow::before {
+  width: 100px; /* 要素の幅 */
+  height: 0;
+  border: 2px solid #000; /* 線の太さ、線の種類、線の色 */
+}
+
+.arrow {
+  width: 8px;
+  height: 40px;
+  border-right: 1px solid #7ed0fd;
+  border-bottom: 1px solid #7ed0fd;
+  transform: skew(0, 45deg);
+}

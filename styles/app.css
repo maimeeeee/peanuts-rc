@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&family=Sawarabi+Gothic&display=swap');
+
 :root {
-  --text-high: rgba(26, 21, 35, 1);
-  --text-low: rgba(111, 110, 119, 1);
+  --primary: #00bf4f;
   --text-link: var(--cyan-9);
+  --text-high: rgb(26 21 35 / 100%);
+  --text-low: rgb(111 110 119 / 100%);
 }

@@ -1,5 +1,5 @@
+import type { PropType, VNode } from "vue";
 import { defineComponent } from "vue";
-import type { VNode, PropType } from "vue";
 import styles from "../styles/title.module.css";
 
 const Title = defineComponent({
