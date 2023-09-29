@@ -1,20 +1,23 @@
 import { defineComponent } from 'vue'
 import styles from '../styles/page.module.css'
+import Space from './Space'
 
 const Page5 = defineComponent({
   setup() {
     return () => (
       <div>
-        <h2 class={styles['page-title']}>なぜWeb Componentsか</h2>
+        <h2 class={styles['page-title']}>なぜWeb Componentsか２</h2>
         <div class={styles.body}>
-          Reactで作られた共通コンポーネントはすでに作っている。
-          <br /> ただし、これはReactのプロジェクトでしか使えない。
+          今の開発でSvelteを使っているように、
           <br />
-          <div style={'height: 24px; width: 1px;'}></div>
+          今後の開発でNext.jsなどほかのフレームワークを使う可能性も考えられる。
+          <div class={styles['arrow']} />
+          フレームワークに左右されないUIライブラリーを作ろう。
+          <Space height={24} />
           <div class={styles['caption']}>
-            さらにいうと、1つのプロジェクトを対象にして作っているので
+            Web ComponentsはWebが標準で持っている機能であるため、
             <br />
-            ビジネスロジックを含んでしまっているコンポーネントもある。
+            大抵のWeb Viewライブラリは動作する。
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
 lineNumbers: false
+title: Peanuts WC
 drawings:
   persist: false
 transition: slide-left
@@ -33,3 +34,9 @@ image: "https://source.unsplash.com/collection/94734566/1920x1080"
 <Page5 />
 
 ---
+
+<Page6 />
+
+---
+
+<Page7 />

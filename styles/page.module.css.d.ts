@@ -3,6 +3,7 @@ declare const styles:
   & Readonly<{ "sign": string }>
   & Readonly<{ "page-title": string }>
   & Readonly<{ "body": string }>
+  & Readonly<{ "body-strong": string }>
   & Readonly<{ "caption": string }>
   & Readonly<{ "arrow": string }>
   & Readonly<{ "arrow": string }>
