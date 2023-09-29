@@ -4,7 +4,12 @@ import Title from './Title'
 
 const Page1 = defineComponent({
   setup() {
-    const title = <>Svelte で作る Web Components</>
+    const title = (
+      <>
+        Svelte で作る
+        <br /> Web Components
+      </>
+    )
     return () => (
       <>
         <Title {...{ title }}></Title>

@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue'
 import styles from '../styles/page.module.css'
 
-const Page6 = defineComponent({
+const Page7 = defineComponent({
   setup() {
     return () => (
       <div>
@@ -25,4 +25,4 @@ const Page6 = defineComponent({
   },
 })
 
-export default Page6
+export default Page7

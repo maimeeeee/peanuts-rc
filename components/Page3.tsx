@@ -1,5 +1,7 @@
 import { defineComponent } from 'vue'
+import MWCImg from '../assets/img/mui.jpg'
 import styles from '../styles/page.module.css'
+import Space from './Space'
 
 const Page3 = defineComponent({
   setup() {
@@ -13,6 +15,11 @@ const Page3 = defineComponent({
           <br />
           しかし、スタイルの上書きが難しかった。
         </div>
+        <Space height={24} />
+        <img src={MWCImg} style={'width: 480px'} />
+        <a href="https://m3.material.io/" class={styles['caption-link']}>
+          Material Web
+        </a>
       </div>
     )
   },
