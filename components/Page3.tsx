@@ -2,7 +2,7 @@ import { defineComponent } from 'vue'
 import MuiImg from '../assets/img/mui.jpg'
 import styles from '../styles/page.module.css'
 
-const Page2 = defineComponent({
+const Page3 = defineComponent({
   setup() {
     return () => (
       <div>
@@ -10,9 +10,9 @@ const Page2 = defineComponent({
         <p>
           <h2>なぜ作ることになったのか</h2>
           <p>
-            Svelteを使って開発をすることになったものの、
+            すでにあるWeb Components を使おうとしてみた。
             <br />
-            Svelteで作られたライブラリーは多くの場合ニーズを満たしてくれない。
+            しかし、
           </p>
           <img src={MuiImg} style={'width: 240px'} />
         </p>
@@ -21,4 +21,4 @@ const Page2 = defineComponent({
   },
 })
 
-export default Page2
+export default Page3
