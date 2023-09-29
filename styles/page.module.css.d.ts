@@ -1,6 +1,9 @@
 declare const styles:
   & Readonly<{ "caption-link": string }>
-  & Readonly<{ "underline": string }>
+  & Readonly<{ "sign": string }>
+  & Readonly<{ "page-title": string }>
+  & Readonly<{ "body": string }>
+  & Readonly<{ "caption": string }>
   & Readonly<{ "arrow": string }>
   & Readonly<{ "arrow": string }>
 ;

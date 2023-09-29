@@ -1,20 +1,17 @@
-import { defineComponent } from 'vue';
-import Title from './Title';
+import { defineComponent } from 'vue'
+import styles from '../styles/page.module.css'
+import Title from './Title'
 
 const Page1 = defineComponent({
   setup() {
-    const title = (
-      <>
-        Svelte で作る Web Components
-      </>
-    );
+    const title = <>Svelte で作る Web Components</>
     return () => (
-      <Title
-        {...{ title }}
-      >
-      </Title>
-    );
+      <>
+        <Title {...{ title }}></Title>
+        <div class={styles['sign']}>廣瀬 麻衣</div>
+      </>
+    )
   },
-});
+})
 
-export default Page1;
+export default Page1

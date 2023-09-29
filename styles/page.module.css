@@ -2,8 +2,26 @@
   color: var(--text-link);
 }
 
-.underline {
+.sign {
+  font-size: x-large;
+  font-weight: 700;
+  text-align: end;
+}
+
+.page-title {
+  color: var(--text-low);
   border-bottom: 1px solid #9bdfaa;
+}
+
+.body {
+  padding-top: 16px;
+  line-height: 2;
+}
+
+.caption {
+  font-size: 14px;
+  line-height: normal;
+  color: var(--text-low, #6f6e77);
 }
 
 .arrow {
